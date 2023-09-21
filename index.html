@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Website | EXP Studio</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Header Section -->
+
+    <header id="header">
+      <a href="#" class="logo">Shop</a>
+      <ul class="nav">
+        <li><a href="#"><ion-icon name="home-outline"></ion-icon></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Shopping</a></li>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+      <ul class="util">
+        <li><a href="#"><ion-icon name="search-circle-outline"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="person-outline"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="heart-outline"></ion-icon></a></li>
+        <li><a href="#"><ion-icon name="bag-outline"></ion-icon></a><span class="number">6</span>
+        </li>
+      </ul>
+    </header>
+    <!-- End Header Section -->
+
+    <!-- Hero Banner Section  -->
+
+    <div id="banner" class="banner">
+        <div class="women">
+            <!-- left Part -->
+            <img src="assets/women-1.jpg" alt="women">
+            <a href="#" class="switch-btn" onclick="switchBanner('left');l">Women</a>
+            <div class="content">
+                <h1>Ladies' Fashion</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed possimus veritatis harum consequuntur esse reiciendis veniam odit! Cum tenetur nemo recusandae. Laboriosam aliquid a cupiditate id, quis officia facere fugiat blanditiis ad at vero velit, perspiciatis nisi praesentium molestiae.</p>
+                <a href="#">Shop around <ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </div>
+            <!-- Middle Part -->
+        <div class="men">
+            <img src="assets/men-1.jpg" alt="men">
+            <a href="#" class="switch-btn" onclick="switchBanner('middle');">Men</a>
+            <div class="content">
+                <h1>Men with Teste</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed possimus veritatis harum consequuntur esse reiciendis veniam odit! Cum tenetur nemo recusandae. Laboriosam aliquid a cupiditate id, quis officia facere fugiat blanditiis ad at vero velit, perspiciatis nisi praesentium molestiae.</p>
+                <a href="#">Shop around <ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+            
+        </div>
+            <!-- Right Patt -->
+        <div class="special">
+            <img src="assets/special-2.jpg" alt="">
+            <a href="#" class="switch-btn" onclick="switchBanner('right');">Special</a>
+            <div class="content">
+                <h1>Be a cool girl</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sed possimus veritatis harum consequuntur esse reiciendis veniam odit! Cum tenetur nemo recusandae. Laboriosam aliquid a cupiditate id, quis officia facere fugiat blanditiis ad at vero velit, perspiciatis nisi praesentium molestiae.</p>
+                <a href="#">Shop around <ion-icon name="cart-outline"></ion-icon></a>
+            </div>
+        </div>
+        <a href="#" class="reset" onclick="resetBanner()"><ion-icon name="power-outline"></ion-icon></a>
+    </div>
+
+       <!-- End Hero Banner Section  -->
+
+       <!-- Main Section -->
+    <main>
+        <!-- Call up section -->
+        <section class="call-up">
+            <div class="call-up-box">
+                <ion-icon name="send-outline"></ion-icon>
+                <div>
+                    <h4>Free Shipping</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit nisi consequuntur, et est eius atque vero ad nam earum architecto?
+                    </p>
+                </div>
+            </div>
+            <div class="call-up-box">
+                <ion-icon name="card-outline"></ion-icon>
+                <div>
+                    <h4>Security Payment</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit nisi consequuntur, et est eius atque vero ad nam earum architecto?
+                    </p>
+                </div>
+            </div>
+            <div class="call-up-box">
+                <ion-icon name="cash-outline"></ion-icon>
+                <div>
+                    <h4>14 Days Return</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit nisi consequuntur, et est eius atque vero ad nam earum architecto?
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="left">
+                <div class="promotion about-box"></div>
+                <div class="style about-box"></div>
+            </div>
+            <div class="right">
+                <div class="collection about-box"></div>
+                <div class="discovery about-box"></div>
+            </div>
+        </section>
+    </main>
+        <!-- End Main Section -->
+    
+    <!-- ion-icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Script -->
+    <script src="app.js"></script>
+  </body>
+</html>
